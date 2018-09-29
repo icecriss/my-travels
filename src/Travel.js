@@ -7,7 +7,7 @@ const Travel = ({ destination, country, image, distance }) => (
       <h3>Destination: {destination + " - " + country}</h3>
       <p>Distance: {distance}</p>
     </figcaption>
-    <img src={image} alt={destination + " " + country} />
+    <img className="pics" src={image} alt={destination + " " + country} />
     <hr />
   </figure>
 );
